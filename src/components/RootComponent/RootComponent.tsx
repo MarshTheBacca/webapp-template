@@ -1,4 +1,4 @@
-export function RootComponent() {
+export function RootComponent(): React.ReactElement<HTMLDivElement> {
   return (
     <div>
       <h1>This is the Root Component</h1>
